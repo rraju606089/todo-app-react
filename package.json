@@ -1,4 +1,5 @@
 {
+  "homepage": "https://rraju606089.github.io/http://localhost:5173/",
   "name": "todo-app",
   "private": true,
   "version": "0.0.0",
@@ -8,9 +9,10 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-page -d dist"
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d dist"
   },
+  
   "dependencies": {
     "react": "^19.2.7",
     "react-dom": "^19.2.7"
